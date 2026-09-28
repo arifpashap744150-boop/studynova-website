@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Study Nova — Study Smarter. Learn Better.</title>
+  <meta name="description" content="Study Nova is a modern study platform for creating courses, learning from photos, practicing with quizzes, exploring Labs, and improving your learning." />
+  <meta name="theme-color" content="#4f46e5" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#home">Skip to main content</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Study Nova home">
+        <img class="brand-logo" src="assets/logo.svg" alt="" width="36" height="36" />
+        <span class="brand-name">Study<span class="brand-accent">Nova</span></span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+        aria-label="Open navigation menu"
+      >
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a class="nav-link is-active" href="#home">Home</a></li>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#download">Download</a></li>
+          <li><a class="nav-link" href="#updates">Updates</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+        </ul>
+        <a class="btn btn-primary btn-sm nav-cta" href="#download" data-download-link>Download</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="hero-eyebrow">Modern study platform for desktop</p>
+          <h1 class="hero-title">Study Smarter. <span class="grad-text">Learn Better.</span></h1>
+          <p class="hero-text">
+            Study Nova is a modern study platform for creating courses, learning from photos,
+            practicing with quizzes, exploring Labs, and improving your learning.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-lg" href="#download" data-download-link>Download for Windows</a>
+            <a class="btn btn-ghost btn-lg" href="#features">Explore Features</a>
+          </div>
+          <ul class="hero-points">
+            <li>Course Maker</li>
+            <li>Study From Photo</li>
+            <li>Quizzes</li>
+            <li>Labs</li>
+            <li>Mind Maps</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="mock-window">
+            <div class="mock-bar">
+              <span class="mock-dot"></span><span class="mock-dot"></span><span class="mock-dot"></span>
+              <span class="mock-title">Study Nova</span>
+            </div>
+            <div class="mock-body">
+              <div class="mock-row">
+                <div class="mock-block mock-block-lg"></div>
+                <div class="mock-block"></div>
+              </div>
+              <div class="mock-row">
+                <div class="mock-block"></div>
+                <div class="mock-block mock-block-lg"></div>
+              </div>
+              <div class="mock-progress"><span></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURES ============ -->
+    <section class="section" id="features">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-eyebrow">Features</p>
+          <h2 class="section-title">Everything you need to study well</h2>
+          <p class="section-sub">
+            Study Nova brings course building, photo-based learning, hands-on Labs, quizzes, and
+            mind maps into one focused workspace.
+          </p>
+        </header>
+
+        <div class="grid features-grid">
+          <article class="card feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 3 2 8l10 5 10-5-10-5Z" /><path d="M6 11v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5" />
+              </svg>
+            </div>
+            <h3 class="card-title">Course Maker</h3>
+            <p class="card-text">
+              Build structured courses from your own material. Add topics, organise content, and
+              turn notes into a clear learning path.
+            </p>
+          </article>
+
+          <article class="card feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="7" height="16" rx="1.5" /><rect x="14" y="4" width="7" height="16" rx="1.5" />
+                <path d="M6 8h1M6 12h1M17 8h1M17 12h1" />
+              </svg>
+            </div>
+            <h3 class="card-title">My Courses</h3>
+            <p class="card-text">
+              All of your courses in one place. Resume where you stopped, track what you finished,
+              and keep your library organised.
+            </p>
+          </article>
+
+          <article class="card feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="5" width="18" height="14" rx="2" /><circle cx="9" cy="10" r="2" />
+                <path d="m4 17 5-4 3 3 3-2 5 4" />
+              </svg>
+            </div>
+            <h3 class="card-title">Study From Photo</h3>
+            <p class="card-text">
+              Photograph pages, notes, or diagrams and turn them into readable explanations you can
+              actually learn from.
+            </p>
+          </article>
+
+          <article class="card feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 3v5l-4 8a2 2 0 0 0 1.8 3h10.4A2 2 0 0 0 19 16l-4-8V3" />
+                <path d="M8 3h8M7.5 14h9" />
+              </svg>
+            </div>
+            <h3 class="card-title">Study Nova Labs</h3>
+            <p class="card-text">
+              Experiment safely in guided Labs. Try ideas, explore examples, and learn by doing
+              without risking your own work.
+            </p>
+          </article>
+
+          <article class="card feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" /><path d="M3 20a6 6 0 0 1 12 0" />
+                <path d="M17 4v8M13 8h8" />
+              </svg>
+            </div>
+            <h3 class="card-title">Quizzes</h3>
+            <p class="card-text">
+              Test yourself with focused quizzes, review your answers, and see exactly which topics
+              need another pass.
+            </p>
+          </article>
+
+          <article class="card feature-card">
+            <div class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="3" width="6" height="4" rx="1" /><rect x="2" y="17" width="6" height="4" rx="1" />
+                <rect x="16" y="17" width="6" height="4" rx="1" /><path d="M12 7v4M5 17v-2h14v2" />
+              </svg>
+            </div>
+            <h3 class="card-title">Mind Maps</h3>
+            <p class="card-text">
+              Turn a topic into a visual mind map. Connect ideas, see the bigger picture, and revise
+              faster.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DOWNLOAD ============ -->
+    <section class="section section-alt" id="download">
+      <div class="container">
+        <div class="download-panel">
+          <div class="download-copy">
+            <h2 class="section-title">Study Nova for Windows</h2>
+            <p class="section-sub">
+              Download Study Nova for Windows and start learning.
+            </p>
+            <ul class="check-list">
+              <li>Works offline — your study material stays on your device</li>
+              <li>Courses, Labs, quizzes, and mind maps in one app</li>
+              <li>Regular updates add new tools over time</li>
+            </ul>
+          </div>
+          <div class="download-action">
+            <a class="btn btn-primary btn-xl" href="#" data-download-link>Download for Windows</a>
+            <p class="download-note" data-download-note>
+              Installer link placeholder — set <code>DOWNLOAD_URL</code> in
+              <code>script.js</code> to enable downloads.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ UPDATES ============ -->
+    <section class="section" id="updates">
+      <div class="container">
+        <header class="section-head">
+          <p class="section-eyebrow">Updates</p>
+          <h2 class="section-title">What's New</h2>
+          <p class="section-sub">
+            Recent improvements to Study Nova. The full update list lives at the top of
+            <code>script.js</code> — add or edit an entry there and it appears here automatically.
+          </p>
+        </header>
+
+        <div class="grid updates-grid" id="updates-list">
+          <!-- Update cards are rendered from the UPDATES array in script.js. -->
+          <noscript>
+            <p class="empty-note">Enable JavaScript to see the latest Study Nova updates.</p>
+          </noscript>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section section-alt" id="about">
+      <div class="container about-grid">
+        <div>
+          <p class="section-eyebrow">About</p>
+          <h2 class="section-title">A study platform built for real learning</h2>
+          <p class="section-sub">
+            Study Nova is a study and education application. It helps students turn raw material
+            into structured courses, understand difficult pages, and check what they actually
+            remember.
+          </p>
+          <p class="section-sub">
+            Instead of scattering notes, screenshots, quizzes, and diagrams across different tools,
+            Study Nova keeps the whole learning flow in one place: build a course, learn from a
+            photo, explore a Lab, quiz yourself, and finish with a mind map that makes the topic
+            easy to recall.
+          </p>
+          <p class="section-sub">
+            The app is designed for students, self-learners, and anyone preparing for an exam who
+            wants a calmer, more focused way to study.
+          </p>
+        </div>
+        <div class="about-cards">
+          <div class="card about-card">
+            <h3 class="card-title">Create</h3>
+            <p class="card-text">Turn notes, files, and photos into organised courses.</p>
+          </div>
+          <div class="card about-card">
+            <h3 class="card-title">Understand</h3>
+            <p class="card-text">Get clear explanations and visual mind maps for each topic.</p>
+          </div>
+          <div class="card about-card">
+            <h3 class="card-title">Practise</h3>
+            <p class="card-text">Use quizzes and Labs to test and reinforce your knowledge.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SUPPORT ============ -->
+    <section class="section" id="support">
+      <div class="container">
+        <div class="support-panel">
+          <h2 class="section-title">Support</h2>
+          <p class="section-sub">
+            Need help with Study Nova? Send us a message and we will get back to you.
+          </p>
+          <a class="btn btn-primary btn-lg" href="mailto:support@example.com" data-support-email>
+            support@example.com
+          </a>
+          <p class="support-note">
+            Placeholder email — replace <code>SUPPORT_EMAIL</code> in <code>script.js</code> with
+            your real address.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="#home">
+          <img class="brand-logo" src="assets/logo.svg" alt="" width="32" height="32" />
+          <span class="brand-name">Study<span class="brand-accent">Nova</span></span>
+        </a>
+        <p class="footer-text">A modern study platform for learning smarter.</p>
+      </div>
+
+      <nav class="footer-links" aria-label="Features">
+        <h3 class="footer-heading">Features</h3>
+        <ul>
+          <li><a href="#features">Course Maker</a></li>
+          <li><a href="#features">My Courses</a></li>
+          <li><a href="#features">Study From Photo</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-links" aria-label="Download">
+        <h3 class="footer-heading">Download</h3>
+        <ul>
+          <li><a href="#download">Study Nova for Windows</a></li>
+          <li><a href="#updates">What's New</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-links" aria-label="About">
+        <h3 class="footer-heading">About</h3>
+        <ul>
+          <li><a href="#about">About Study Nova</a></li>
+          <li><a href="#support">Support</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year">2026</span> Study Nova. All rights reserved.</p>
+      <a class="footer-support" href="mailto:support@example.com" data-support-email>Support</a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
